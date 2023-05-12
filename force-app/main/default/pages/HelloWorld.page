@@ -1,0 +1,19 @@
+<apex:page lightningStyleSheets = "true">
+
+    <apex:pageBlock title = "Greetings!">  
+       
+        <apex:pageBlockSection title = "World">
+            <p>Hello World1</p>
+        </apex:pageBlockSection>
+     
+        <apex:pageBlockSection title = "Galaxy">
+            <p>Hello Galaxy!</p>
+        </apex:pageBlockSection>
+
+        <apex:pageBlockSection title = "Universe">
+            <p>Hello Universe!</p>
+        </apex:pageBlockSection>
+
+    </apex:pageBlock>
+
+</apex:page>

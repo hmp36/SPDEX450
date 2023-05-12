@@ -1,0 +1,16 @@
+{
+  "orgName": "haganpratt company",
+  "edition": "Developer",
+  "hasSampleData": true,
+  "adminEmail": "Pratt_Hagan@bah.com",
+  "username": "Pratt_Hagan@bah.com",
+  "features": ["EnableSetPasswordInApi"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
+}

@@ -1,0 +1,6 @@
+<apex:component>
+    <apex:attribute name="recordname" description="Pass in the name of the record being viewed" 
+        type="String" required=    >
+
+
+</apex:component>

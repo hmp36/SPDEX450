@@ -1,0 +1,31 @@
+<template>
+
+    <lightning-card title="Form Toggle Component">
+        <div class ="slds-m-around_medium">
+            <lightning-button label={buttonLabel} onclick={handleClick}></lightning-button>
+        </div>    
+        <template if:true={editMode}>
+            <c-opp-record-form 
+                record-id={recordId}
+                object-api-name={objectApiName}
+                form-mode="edit"
+                layout-type="Compact"
+                oncancel={handleCancel}
+                onsave={handleSave}
+            ></c-opp-record-form>>
+            <p>We're in edit mode!</p>
+        </template>
+
+        <template if:false={editMode}>
+            <c-opp-record-form 
+                record-id={recordId}
+                object-api-name={objectApiName}
+                form-mode="edit"
+                layout-type="Compact"
+            ></c-opp-record-form>>
+            <p> We're NOT in edit mode!</p>
+        </template>
+
+    </lightning-card>   
+
+</template>

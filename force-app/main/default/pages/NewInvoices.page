@@ -1,0 +1,16 @@
+<apex:page standardController="Invoice__c" recordSetVar="Invoices" extensions="InvoicesController">
+    <apex:form> 
+       <apex:pageBlock> 
+            <apex:pageBlockTable value = "{!newinvoices}" var ="inv">
+                <apex:column value =  
+                <apex:column value =
+                <apex:column value =
+                <apex:column value =
+
+            </apex:page>
+       </apex:pageBlock>  
+    
+
+    </apex:form>  
+
+</apex:page>

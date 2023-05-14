@@ -30,5 +30,6 @@ trigger OppMasterTrigger on Opportunity (
 
     }
 
-}
+
+
 
